@@ -20,16 +20,16 @@ function menu() {
     const ocImg = document.createElement('img');
     const gmImg = document.createElement('img');
 
-    fcImg.setAttribute('src', '../src/css/friedchicken.png');
+    fcImg.setAttribute('src', './src/css/friedchicken.png');
     fcImg.setAttribute('alt', 'original-chicken');
 
-    yyImg.setAttribute('src', '../src/css/sweetchilli.jpg');
+    yyImg.setAttribute('src', './src/css/sweetchilli.jpg');
     yyImg.setAttribute('alt', 'sweet-chilli-chicken');
 
-    ocImg.setAttribute('src', '../src/css/onionchicken.jpg');
+    ocImg.setAttribute('src', './src/css/onionchicken.jpg');
     ocImg.setAttribute('alt', 'onion-chicken');
 
-    gmImg.setAttribute('src', '../src/css/garlicmayo.jpg');
+    gmImg.setAttribute('src', './src/css/garlicmayo.jpg');
     gmImg.setAttribute('alt', 'garlic-mayo-chicken');
 
     const imgs = [fcImg, yyImg, ocImg, gmImg];
