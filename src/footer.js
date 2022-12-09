@@ -9,7 +9,7 @@ function footer() {
     link.setAttribute("href", "https://github.com/gankzi");
     link.setAttribute("target", "_blank");
 
-    img.setAttribute("src", "../src/css/github.svg");
+    img.setAttribute("src", "./src/css/github.svg");
     img.setAttribute("alt", "github-icon");
     img.classList.add("filter-white");
 
