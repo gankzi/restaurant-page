@@ -180,3 +180,40 @@ footer img:hover {
 .card p {
     font-size: .65rem;
 }
+
+/* contact css */
+
+.main-info {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    color: white;
+    margin-top: 2%;
+}
+
+.location, .contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+.days {
+    color: #121111
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location h3, .hours h3, .contacts h3 {
+    color: #ECB312;
+    margin-bottom: 10px;
+}
+
+.days {
+    font-weight: bold;
+}
+

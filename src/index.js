@@ -1,5 +1,6 @@
 import './css/styles.css';
-import menu from './menu';
+import contact from './contact';
+// import menu from './menu';
 import header from './header';
 import footer from './footer';
 // import home from './home';
@@ -7,7 +8,7 @@ import footer from './footer';
 const content = document.getElementById('content');
 
 function component() {
-    content.append(header, menu, footer);
+    content.append(header, contact, footer);
 
     return content;
 };
