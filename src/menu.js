@@ -57,4 +57,4 @@ function menu() {
   return main;
 }
 
-export default menu();
+export default menu;
